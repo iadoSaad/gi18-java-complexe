@@ -57,5 +57,12 @@ public class Complexe {
 	public String toString() {
 		return reel+" + "+img;
 	}
+	
+	@Override
+	public boolean equals(Object obj) {
+		if( ! (obj instanceof Complexe) )  return false;
+		return ((Complexe)obj).reel==this.reel && ((Complexe)obj).img==this.img;
+
+	}
 
 }
