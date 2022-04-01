@@ -58,6 +58,8 @@ public class Complexe {
 	public String toString() {
 		return reel+" + "+img;
 	}
+	 
+	
 	
 	@Override
 	public boolean equals(Object obj) {
