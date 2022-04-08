@@ -1,5 +1,6 @@
 package aiac.gi18.java.complexe;
 
+// la classe Complexe
 public class Complexe {
 	
 	private double img;
