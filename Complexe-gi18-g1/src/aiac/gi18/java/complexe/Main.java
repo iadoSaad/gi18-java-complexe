@@ -24,9 +24,10 @@ public class Main {
 		System.out.println(myList);
 		
 		Collections.sort(myList);
-		
 		System.out.println(myList);
 		
+		Collections.sort(myList, new ComparatorParImg());	
+		System.out.println(myList);
 	}
 
 }

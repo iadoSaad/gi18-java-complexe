@@ -12,6 +12,14 @@ public class Complexe implements Comparable<Complexe> {
 	
 	private static int compteur=0;
 	
+	public double getImg() {
+		return img;
+	}
+	
+	public double getReel() {
+		return reel;
+	}
+	
 	
 	public Complexe() {
 		this(0,0);
