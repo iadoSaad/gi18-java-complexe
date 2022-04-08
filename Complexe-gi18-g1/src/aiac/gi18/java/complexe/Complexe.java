@@ -1,7 +1,11 @@
 package aiac.gi18.java.complexe;
 
+<<<<<<< Upstream, based on origin/main
 // la classe Complexe
 public class Complexe {
+=======
+public class Complexe implements Comparable<Complexe> {
+>>>>>>> 6c9d54c Imlemetation de Compararble<Complexe>
 	
 	private double img;
 	private double reel;
@@ -66,6 +70,12 @@ public class Complexe {
 		if( ! (obj instanceof Complexe) )  return false;
 		return ((Complexe)obj).reel==this.reel && ((Complexe)obj).img==this.img;
 
+	}
+	@Override
+	public int compareTo(Complexe o) {
+		if(this.reel==o.reel) return 0;
+		if(this.reel>o.reel) return 1;
+		return -1;
 	}
 
 }
