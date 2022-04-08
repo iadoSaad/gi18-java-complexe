@@ -1,11 +1,6 @@
 package aiac.gi18.java.complexe;
 
-<<<<<<< Upstream, based on origin/main
-// la classe Complexe
-public class Complexe {
-=======
 public class Complexe implements Comparable<Complexe> {
->>>>>>> 6c9d54c Imlemetation de Compararble<Complexe>
 	
 	private double img;
 	private double reel;
